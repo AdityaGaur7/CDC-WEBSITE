@@ -45,7 +45,7 @@ function Foot() {
         <div className='niche'>
             <p>
             © Copyright Coders & Developers Club. All rights reserved.<br/>
-Designed with by ❤️ Team CDC MMMUT
+Designed with ❤️ by Team CDC MMMUT
             </p>
         </div>
     </footer>
