@@ -23,7 +23,7 @@
 .about_text {
   text-align: center;
   font-style: normal;
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-family: 'Courier New', monospace;
   color: rgb(255, 255, 255);
   font-size: 1rem;
   line-height: 1.5rem;
@@ -79,6 +79,7 @@
   padding: 2px 10px; */
   text-align: center;
   /* border-radius: 10px; */
+  font-family: Impact, fantasy;
 }
 @media (max-width: 912px) {
   .about_main {
