@@ -43,15 +43,15 @@ function Hero() {
             <span className="club_text">Club</span>
             <div className="text_bottom">
               <div className="left_text">
-                <h3>Vision</h3>
-                <p>
+                <h3 className="vis">Vision</h3>
+                <p className="para">
                   Our primary goal is to prioritise the growth and excellence of
                   our college’s coding culture.
                 </p>
               </div>
               <div className="right_text">
-                <h3>Aim</h3>
-                <p>
+                <h3 className="vis">Aim</h3>
+                <p className="para">
                   Organise sessions to create awareness about the significance
                   of coding and other tech domains.
                 </p>

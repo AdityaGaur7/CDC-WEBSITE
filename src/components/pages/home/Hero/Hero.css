@@ -6,6 +6,12 @@
   flex-wrap: wrap;
   margin-top: 5rem;
 }
+.vis{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+  font-family: 'Lucida Console';
+}
 /* .main_left {
   padding-top: 5rem;
   font-size: 6rem;
