@@ -25,7 +25,7 @@ const StackOverflowSearch = () => {
     <div className="container mx-auto h-screen" >
      
 
-      <h1 className="text-3xl font-bold mb-4">Search Stack Overflow</h1>
+      <h1 className="text-3xl my-4 font-bold mb-4 ">Search Stack Overflow</h1>
       <form onSubmit={handleSubmit} className="mb-4">
         <input
           type="text"

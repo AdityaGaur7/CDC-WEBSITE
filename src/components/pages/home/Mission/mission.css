@@ -11,4 +11,5 @@
 .text{
     display: grid;
     text-align: center;
+    width: 50%;
 }

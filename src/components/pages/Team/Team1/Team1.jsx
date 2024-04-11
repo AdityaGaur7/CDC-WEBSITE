@@ -1,7 +1,7 @@
 import React from 'react';
-import TeamCard from '../TeamCard.jsx'; // Assuming the TeamCard component is in the same directory
+import TeamCard from '../TeamCard.jsx';
 
-import TeamData from './Team1.json'; // Assuming the JSON file is in the same directory
+import TeamData from './Team1.json'; 
 
 const TeamPage = () => {
   return (

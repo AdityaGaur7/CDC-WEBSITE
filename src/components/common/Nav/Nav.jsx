@@ -1,60 +1,70 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import './nav.css'; // Import your CSS file
-function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [big, setbig] = useState(false);
+import React from "react";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
-  useEffect(() => {
-    if (window.innerWidth < 1170) {
-      setbig(false);
-    } else {
-      setbig(true);
-    }
-  });
+import "./nav.css";
+function Nav() {
+  const [isActive, setIsActive] = useState(false);
 
-  const toggleNavbar = () => {
-    if (window.innerWidth < 1170) {
-      setIsOpen(!isOpen);
-    }
+  const toggleMenu = () => {
+    setIsActive(!isActive);
   };
 
   return (
-    <div className={`navbar ${big ? 'sticky' : ''}`}>
-      <div className="container">
-        <div className="navbar__brand">
-          <img src="./img/navlogo.png" alt="Logo" className="navbar__logo" />
-        </div>
-        <button className="navbar__toggle" onClick={toggleNavbar}></button>
-        <div className={`navbar__menu ${isOpen ? 'active' : ''}`}>
-          <Link to="/" className="navbar__link" onClick={toggleNavbar}>
-            Home
-          </Link>
-          <Link to="/about" className="navbar__link" onClick={toggleNavbar}>
-            About
-          </Link>
-          <Link to="/team" className="navbar__link" onClick={toggleNavbar}>
-            Team
-          </Link>
-          <Link to="/event" className="navbar__link" onClick={toggleNavbar}>
-            Event
-          </Link>
-          <Link to="/contact" className="navbar__link" onClick={toggleNavbar}>
-            Contact
-          </Link>
-          <Link to="/contest" className="navbar__link" onClick={toggleNavbar}>
-            Contests
-          </Link>
-          <Link to="/query" className="navbar__link" onClick={toggleNavbar}>
-            Query
-          </Link>
-          <Link to="/verify" className="navbar__link" onClick={toggleNavbar}>
-            Verify
-          </Link>
-        </div>
+    <nav className="navbar">
+      <div className="logo">
+        <img src="img/CDD.png" alt="logo" />
       </div>
-    </div>
+      <input
+        type="checkbox"
+        id="click"
+        checked={isActive}
+        onChange={toggleMenu}
+      />
+      <label htmlFor="click" className="menu-btn">
+        <i className="fas fa-bars"></i>
+      </label>
+
+      <ul>
+        <li>
+          <NavLink to={"/"} onClick={toggleMenu}>
+            Home
+          </NavLink>
+        </li>
+        {/* <li>
+          <NavLink to={"/about"}>About</NavLink>
+        </li> */}
+        <li>
+          <NavLink to={"/team"} onClick={toggleMenu}>
+            Team
+          </NavLink>
+        </li>
+        {/* <li>
+          <NavLink to={"/event"}>Event</NavLink>
+        </li> */}
+        <li>
+          <NavLink to={"/contact"} onClick={toggleMenu}>
+            Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/contest"} onClick={toggleMenu}>
+            Contests
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/query"} onClick={toggleMenu}>
+            Query
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/verify"} onClick={toggleMenu}>
+            Verify
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
-export default Navbar;
+export default Nav;

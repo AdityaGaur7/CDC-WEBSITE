@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
 
+import React, { useState, useEffect } from 'react';
+import './Contest.css';
 function ContestList() {
+ 
  
   const [contests, setContests] = useState([]);
 
@@ -21,7 +23,7 @@ function ContestList() {
   }, []);
 
   return (
-    <div style={{padding:'4rem',minHeight:'50vh'}}>
+    <div  className='contests'>
       <h1>Upcoming Coding Contests</h1>
       <ul style={{display:'flex',flexDirection:'column'}}>
         {contests.map((contest) => (

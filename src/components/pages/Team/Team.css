@@ -1,12 +1,18 @@
 /* Team.css */
 
-nav {
+.team_btn {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
   }
-  
+  .loading{
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    font-size: 4rem;
+    color: #3498db;
+  }
   ul {
     list-style-type: none;
     display: flex;
@@ -104,6 +110,6 @@ nav {
   
   @media (max-width:512px) {
     button{
-      font-size: 10px;
+      font-size: 6px;
     }
   }

@@ -1,24 +1,25 @@
-import React from 'react';
-import { useEffect } from 'react';
-import "./Team.css"
+import React from "react";
+// import { useEffect } from 'react';
+import "./Team.css";
+import LazyLoad from 'react-lazyload';
 
 const TeamCard = ({ member }) => {
-  
- 
   return (
     <div className="col-lg-3 col-md-6 p-5 teamcard">
       <div className="team-1">
         <div className="pic">
-          <img src={member.imgLink} className="img-fluid" alt="Profile" />
+        <LazyLoad height={200}>
+          <img src={member.imgLink} className="img-fluid" alt="Profile" loading="lazy" />
+          </LazyLoad>
         </div>
         <div className="team-info">
           <h4>{member.name}</h4>
           <span>{member.position}</span>
           <div className="social">
-            <a href={`mailto:${member.gmail}`} >
+            <a href={`mailto:${member.gmail}`}>
               <i className="fa-solid fa-envelope"></i>
             </a>
-            <a href={member.insta} >
+            <a href={member.insta}>
               <i className="fab fa-instagram"></i>
             </a>
             <a href={member.linkedin}>

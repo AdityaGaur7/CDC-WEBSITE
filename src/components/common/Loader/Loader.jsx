@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
 import "./Loader.css";
 
 function Loader() {
@@ -10,15 +10,10 @@ function Loader() {
 
     // GSAP animation
     gsap.to(loader, {
-     
-      
       duration: 1,
-      delay:4,
-      stagger:1,
-      y:-700,
-     
-     
-      
+      delay: 4,
+      stagger: 1,
+      y: -700,
     });
 
     // Cleanup function
@@ -29,20 +24,18 @@ function Loader() {
   }, []); // Empty dependency array ensures this effect runs only once when the component mounts
 
   return (
-    <div className='load' ref={loaderRef}>
-     <div class="terminal-loader">
-  <div class="terminal-header">
-    <div class="terminal-title">Status</div>
-    <div class="terminal-controls">
-      <div class="control crox"></div>
-      <div class="control minimize"></div>
-      <div class="control maximize"></div>
-    </div>
-  </div>
-  <div class="texti"> 
-  Coders and Developers Club....</div>
-</div>
-
+    <div className="load" ref={loaderRef}>
+      <div className="terminal-loader">
+        <div className="terminal-header">
+          <div className="terminal-title">Status</div>
+          <div className="terminal-controls">
+            <div className="control crox"></div>
+            <div className="control minimize"></div>
+            <div className="control maximize"></div>
+          </div>
+        </div>
+        <div className="texti">Coders and Developers Club....</div>
+      </div>
     </div>
   );
 }

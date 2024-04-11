@@ -1,0 +1,155 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.textheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.textheading p {
+  font-size: 2rem;
+  color: #fff;
+}
+.roadmap_main {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
+.tilt {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(0.6px);
+  -webkit-backdrop-filter: blur(0.6px);
+  box-sizing: border-box;
+}
+.text-box:hover {
+  border: 2px solid #636161;
+}
+
+.text-box {
+  padding: 20px 30px;
+  color: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.left-roadmap {
+  left: 0;
+}
+.right-roadmap {
+  left: 50%;
+}
+.img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+  border: 2px solid rgb(225, 127, 127);
+  color: #f18686;
+  background: #000;
+  padding: 3px;
+}
+.right-roadmap .img {
+  left: -20px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -190;
+  animation: moveline 6s forwards;
+}
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.left-roadmap-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px;
+}
+.right-roadmap-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+}
+
+.roadmap_main:nth-child(1) {
+  animation-delay: 0s;
+}
+.roadmap_main:nth-child(2) {
+  animation-delay: 1s;
+}
+.roadmap_main:nth-child(3) {
+  animation-delay: 2s;
+}
+.roadmap_main:nth-child(4) {
+  animation-delay: 3s;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    margin: 50px auto;
+    max-width: 90%;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .roadmap_main {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box {
+    font-size: 13px;
+  }
+  .text-box small {
+    margin-bottom: 10px;
+  }
+  .right-roadmap {
+    left: 0;
+  }
+  .img {
+    left: 10px;
+  }
+  .left-roadmap-arrow,
+  .right-roadmap-arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
+  .right-roadmap .img {
+    left: 9px;
+  }
+}

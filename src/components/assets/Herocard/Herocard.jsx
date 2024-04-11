@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.css";
+import "./Herox.css";
 
 const Herocard = () => {
   return (

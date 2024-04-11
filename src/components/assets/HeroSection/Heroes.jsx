@@ -3,8 +3,6 @@ import React from "react";
 import "./HeroSection.css";
 
 function Heroes({ headline, description, imgStart, img, alt }) {
-
-  
   return (
     <>
       <div className="home__hero-section _container">

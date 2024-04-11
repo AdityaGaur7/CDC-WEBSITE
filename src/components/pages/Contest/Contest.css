@@ -3,3 +3,12 @@
     flex-direction: column-reverse;
 
 }
+.contests{
+    padding:4rem;
+    min-height:50vh;
+   }
+@media (max-width:920px) {
+   .contests{
+    padding: 2rem;
+   }
+}

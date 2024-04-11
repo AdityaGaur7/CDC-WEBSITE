@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Yash Vardhan Gond",
+    "branch": "Information Technology",
+    "image":"img/yashvardhan.jpg",
+    "description": "Being a member of our coding and developers club has been an enriching experience. The club's workshops and coding challenges have helped me improve my problem-solving skills and think creatively. I would recommend the club to anyone looking to enhance their coding skills in a supportive environment."
+  },
+  {
+    "name": "Himanshu Verma",
+    "branch": "Information Technology",
+    "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2Fhimanshu%20verma.jpg?alt=media&token=41b76d08-a39f-43f8-be40-b42a0a464dc0",
+    "description": "Being a part of The Coders and Developers Club has been a game-changer for me. I've not only learned new skills but also gained valuable insights into the world of competitive programming. The club's environment fosters learning and growth, making it the perfect place for anyone looking to enhance their coding abilities."
+  },
+  {
+    "name": "Aditya Gaur",
+    "branch": "Computer Science",
+    "image":"img/adgaur.jpg",
+    "description": "Joining The Coders and Developers Club has been a transformative experience. From learning new programming languages to participating in coding contests, the club has provided me with numerous opportunities to grow as a coder. I highly recommend the club to anyone looking to dive deep into the world of coding."
+  },
+  {
+    "name": "Prabhat Yadav",
+    "branch": "Information Technology",
+    "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2Fprabhat%20yadav.jpg?alt=media&token=32bd0fd9-fa2a-486e-bf16-e2265680490d",
+    "description": "Being a member of The Coders and Developers Club has been an enriching experience. The club's focus on practical learning and hands-on projects has helped me develop a strong foundation in coding. I would recommend the club to anyone looking to enhance their coding skills and meet like-minded individuals."
+  },
+  {
+    "name": "Sidra Ahsan",
+    "branch": "Computer Science",
+    "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2Fsidra%20ahsan.jpg?alt=media&token=24dc61c2-358a-42b3-be96-9a0181612b2d",
+    "description": "The Coders and Developers Club has been instrumental in my coding journey. The club's workshops and events have provided me with the platform to explore new technologies and expand my coding skills. I would highly recommend the club to anyone looking to take their coding skills to the next level."
+  },
+  {
+    "name": "Sumedha Verma",
+    "branch": "Electrical Engineering",
+    "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2FSumedha%20Verma.jpg?alt=media&token=40a6e98e-e267-4013-85aa-cd115b5f5c69",
+    "description": "Joining The Coders and Developers Club has been a rewarding experience. The club's focus on fostering a collaborative learning environment has helped me grow both personally and professionally. I would recommend the club to anyone looking to connect with fellow coders and expand their coding knowledge."
+  }
+  
+]
