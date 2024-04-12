@@ -17,7 +17,7 @@ const Form = () => {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-200">
-      <div className="p-8 rounded shadow-md w-40 md:w-1/2 lg:w-1/3 text-center mx-auto">
+      <div className="p-8 rounded h-1/2 shadow-md w-40 md:w-1/2 lg:w-1/3 text-center mx-auto" style={{height:'50vh'}}>
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <form>
           <div className="mb-4">
