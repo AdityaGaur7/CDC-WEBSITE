@@ -7,7 +7,7 @@ const TeamCard = ({ member }) => {
     <div className="col-lg-3 col-md-6 p-5 teamcard">
       <div className="team-1">
         <div className="pic">
-       
+        
           <img src={member.imgLink} className="img-fluid" alt="Profile" loading="lazy" />
         
         </div>
