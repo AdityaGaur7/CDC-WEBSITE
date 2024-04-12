@@ -10,7 +10,11 @@ const PORT  = process.env.PORT || 5000;
 // Connect to MongoDB database
 const URL = 'mongodb+srv://adkumar7112:ECFLZi6EPvP8aSI0@cluster0.nvhcrpa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const LOCAL_URL = 'mongodb://localhost:27017/certificates';
-app.use(cors());
+app.use(cors({
+  origin: ["https://cdc-website-vrqu.vercel.app"],
+  methods: ["POST", "GET"],
+  credentials: true
+}));
 app.use(bodyParser.json());
 mongoose.connect(URL);
 
@@ -46,21 +50,7 @@ app.post('/verify/add',async(req,res)=>{
     console.warn('not possible');
   }    
 })
-// app.get('/verify/all',async(req,res)=>{
-//   try{
-//     let certificates = await Certificate.find();
-//        certificates = JSON.parse(certificates);
-   
-//       res.send(certificates);
-//       console.log(certificates)
-   
-    
-    
-//   }catch(e){
-//     res.status(404).send("No data found");
-//   }
-  
-// })
+
 
 app.get('/verify/:id', async (req, res) => {
   const certificateId = req.params.id;
