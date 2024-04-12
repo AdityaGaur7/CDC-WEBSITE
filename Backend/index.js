@@ -15,15 +15,6 @@ app.use(cors({
   methods: ["POST", "GET"],
   credentials: true
 }));
-
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://cdc-website-vrqu.vercel.app');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  res.setHeader('Access-Control-Allow-Credentials', true);
-  next();
-});
-
 app.use(bodyParser.json());
 mongoose.connect(URL);
 
