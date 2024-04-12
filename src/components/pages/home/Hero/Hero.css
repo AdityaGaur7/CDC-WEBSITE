@@ -11,8 +11,8 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .para{
-  font-size: 18px;
-  font-family: 'Lucida Console';
+  font-size: 15px;
+  font-family: 'Courier New', monospace;
 }
 /* .main_left {
   padding-top: 5rem;
@@ -51,7 +51,8 @@
 .left_text {
   max-width: 45%;
   text-align: left;
-  word-spacing: 3px;
+/*   word-spacing: 2px; */
+  line-height: 20px;
 }
 .right_text,
 .left_text {

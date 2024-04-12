@@ -8,7 +8,7 @@ const CertificateVerifier = () => {
   const [verify, setVerify] = useState(false);
   const [msg,setmsg]=useState('');
   const handleVerify = async () => {
-   
+      //  console.log(typeof(certificateId));
     try {
       const response = await axios.get(`https://cdc-website-backend.vercel.app/verify/${certificateId}`, { certificateId });
       setVerify(true);

@@ -55,9 +55,12 @@ app.post('/verify/add',async(req,res)=>{
 app.get('/verify/:id', async (req, res) => {
   const certificateId = req.params.id;
 
+    const certificateIdString = JSON.stringify(certificateId);
+   
+   console.log(certificateId);
   try {
  
-    const certificate = await Certificate.findOne({certificateId});
+    const certificate = await Certificate.findOne({certificateIdString});
     
     if (certificate) {
     

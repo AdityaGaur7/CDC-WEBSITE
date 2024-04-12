@@ -17,7 +17,7 @@
   /* color: #050505; */
 }
 .roadmap_main {
-  padding: 10px 50px;
+  padding: 10px 40px;
   position: relative;
   width: 50%;
   color: rgb(34, 34, 34);
@@ -36,8 +36,7 @@
 }
 
 .text-box {
-  padding: 20px 30px;
-  /* background: #9f9c9c; */
+  padding: 20px 20px;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -88,7 +87,8 @@
   margin-bottom: 15px;
 }
 .text-box p {
-  word-spacing: 3px;
+  word-spacing: 2px;
+  line-height: 20px;
 }
 
 .left-roadmap-arrow {
@@ -126,7 +126,12 @@
 .roadmap_main:nth-child(4) {
   animation-delay: 3s;
 }
-
+.text-box:hover {
+  border: none;
+}
+.text-box h2 {
+  cursor: pointer;
+}
 @media screen and (max-width: 600px) {
   .timeline {
     margin: 50px auto;
