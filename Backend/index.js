@@ -50,21 +50,7 @@ app.post('/verify/add',async(req,res)=>{
     console.warn('not possible');
   }    
 })
-// app.get('/verify/all',async(req,res)=>{
-//   try{
-//     let certificates = await Certificate.find();
-//        certificates = JSON.parse(certificates);
-   
-//       res.send(certificates);
-//       console.log(certificates)
-   
-    
-    
-//   }catch(e){
-//     res.status(404).send("No data found");
-//   }
-  
-// })
+
 
 app.get('/verify/:id', async (req, res) => {
   const certificateId = req.params.id;
