@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import "./nav.css";
 function Nav() {
   const [isActive, setIsActive] = useState(false);
@@ -13,7 +12,7 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="img/CDD.png" alt="logo" />
+        <img src="./img/Bluebg_CDC.png" alt="logo" />
       </div>
       <input
         type="checkbox"
