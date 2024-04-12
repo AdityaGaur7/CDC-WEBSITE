@@ -8,7 +8,7 @@ const CertificateForm = () => {
     e.preventDefault();
     // console.log(certificateId);
 
-    let result = await fetch(`${process.env.BACKEND_LINK}/verify/add`,{
+    let result = await fetch(`https://cdc-website-backend.vercel.app/verify/add`,{
         method:'post',
         body:JSON.stringify({certificateId}),
         headers:{
