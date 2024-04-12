@@ -1,23 +1,24 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const CertificateForm = () => {
-  const [ok, setok] = useState(false);
+  const [ok, setOk] = useState(false);
   const [certificateId, setCertificateId] = useState('');
 
-  const handleSubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(certificateId);
 
-    let result = await fetch(`https://cdc-website-backend.vercel.app/verify/add`,{
-        method:'post',
-        body:JSON.stringify({certificateId}),
-        headers:{
-            "Content-Type":"application/json"
-        }
-    });
-    result = await result.json();
-  if(result)setok(true);
-    console.warn(result);
+    try {
+      const response = await axios.post('https://cdc-website-backend.vercel.app/verify/add', {
+        certificateId: certificateId
+      });
+
+      if (response.data) {
+        setOk(true);
+      }
+    } catch (error) {
+      console.error('Error adding certificate ID:', error);
+    }
   };
 
   return (
