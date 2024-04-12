@@ -7,12 +7,10 @@ import { TitleCenter4 } from "../TitleCenter/Title";
 const Timeline = () => {
   return (
     <div>
-      
           <div style={{margin:'auto', textAlign:'center'}}>
           <TitleCenter {...TitleCenter4}/>
           </div>
       <div className=" timeline">
-          
         <div className="roadmap_main left-roadmap">
           <DiAndroid className="img" />
           <div className="text-box">
@@ -71,9 +69,6 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-   
-      {/* <Form/> */}
-   
     </div>
   );
 };

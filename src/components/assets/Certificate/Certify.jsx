@@ -8,7 +8,7 @@ const CertificateVerifier = () => {
   const [verify, setVerify] = useState(false);
   const [msg,setmsg]=useState('');
   const handleVerify = async () => {
-    // console.log(certificateId);
+   
     try {
       const response = await axios.get(`${process.env.BACKEND_LINK}/verify/${certificateId}`, { certificateId });
       setVerify(true);
@@ -29,6 +29,9 @@ const CertificateVerifier = () => {
 
   return (
     <div className='certi-css' style={{margin:'3rem',height:'50vh',textAlign:'center'}}>
+      <div className='certicontainer'>
+
+     
       <h2>Certificate Verifier</h2>
       <label htmlFor="certificateId">Enter Certificate ID:</label><br />
       <input style={{margin:'1rem'}}
@@ -39,7 +42,8 @@ const CertificateVerifier = () => {
       />
       <br/>
       <button onClick={handleVerify}>Verify</button>
-      {verify ? <h1>{msg}</h1>:<h1>Enter valid Certificate Id</h1>}
+      {verify ? <h1>Certificate Found</h1>:<h1 style={{color:'red'}}>Enter valid Certificate Id</h1>}
+      </div>
     </div>
   );
 };
