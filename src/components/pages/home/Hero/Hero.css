@@ -7,9 +7,11 @@
   margin-top: 5rem;
 }
 .vis{
+  font-size: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .para{
+  font-size: 18px;
   font-family: 'Lucida Console';
 }
 /* .main_left {
@@ -77,8 +79,12 @@
 .code_img:hover {
   transform: rotate(-4deg);
 }
+.coders_text{
+  font-size: 95px;
+}
 
 .club_text {
+  font-size: 95px;
   background: linear-gradient(
     151deg,
     rgba(255, 255, 255, 1) 0%,
