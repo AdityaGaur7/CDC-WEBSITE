@@ -19,7 +19,26 @@ function ContestList() {
     fetchContests();
   }, []);
 
-  let arr = ['leetcode.com', 'codechef.com'];
+  let arr = [
+    "leetcode.com",
+    "codechef.com",
+    "codingninjas.com/codestudio",
+    "codeforces.com",
+    "codeforces.com/gyms",
+    "geeksforgeeks.org",
+  ];
+  // function check(e) {
+  //   for (let i = 0; i < arr.length; i++) {
+  //     if (arr[i] == e) return 1;
+  //   }
+  // }
+
+  // const [new_contests, setnew_Contests] = useState([null]);
+  // const newContests = contests.filter((contest) => contest.host == arr.find(check(contest.host)));
+  // setnew_Contests(newcontests);
+  // contests.map((contest)=>{
+
+  // })
   return (
     <div className="contests">
       <h1>Upcoming Coding Contests</h1>
