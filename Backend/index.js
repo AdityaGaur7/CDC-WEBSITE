@@ -12,7 +12,7 @@ const URL = 'mongodb+srv://adkumar7112:ECFLZi6EPvP8aSI0@cluster0.nvhcrpa.mongodb
 const LOCAL_URL = 'mongodb://localhost:27017/certificates';
 app.use(cors(
   {
-   origin:["https://cdc-website-backend.vercel.app/"],
+   origin:["https://cdc-website-vrqu.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }
