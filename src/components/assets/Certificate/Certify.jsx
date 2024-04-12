@@ -40,6 +40,8 @@ const CertificateVerifier = () => {
       />
       <br/>
       <button onClick={handleVerify}>Verify</button>
+      <br/>
+      <br/>
       {verify ? <h1>Certificate Found</h1>:<h1 style={{color:'red'}}>Enter valid Certificate Id</h1>}
       </div>
     </div>
