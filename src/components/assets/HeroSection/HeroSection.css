@@ -1,78 +1,81 @@
 .home__hero-section {
-    color: #fff;
-    -webkit-text-stroke: #000;
-    padding: 80px 0;
+  color: #fff;
+  -webkit-text-stroke: #000;
+  padding: 80px 0;
 }
 
 .home__hero-row {
-    align-items: center;
+  align-items: center;
 }
 
 .home__hero-text-wrapper {
-    max-width: 540px;
-    padding-top: 0;
+  max-width: 540px;
+  padding-top: 0;
 }
 
 .heading {
-    margin-bottom: 24px;
-    font-size: 42px;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fdfdfd;
-    -webkit-text-stroke: #000;
+  margin-bottom: 24px;
+  font-size: 42px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fdfdfd;
+  -webkit-text-stroke: #000;
 }
 
 .home__hero-subtitle {
-    max-width: 500px;
-    margin-bottom: 35px;
-    font-size: 16px;
-    line-height: 24px;
-    color: gray;
+  max-width: 500px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  color: gray;
 }
 
 .home__hero-img-wrapper {
-    max-width: 480px;
+  max-width: 480px;
 }
 
 .home__hero-img {
-    max-width: 100%;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 10px;
-    padding-right: 0;
+  max-width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 40px;
+  padding-right: 0;
 }
 
 img {
-    border: 0;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
-    .container {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .home__hero-text-wrapper {
-        padding-bottom: 65px;
-    }
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+  .home__hero-img {
+    margin-left: 0px;
+  }
 
-    .col {
-        max-width: 100% !important;
-        flex-basis: 100% !important;
-    }
+  .col {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
 }
 
-.plane{
-    position: fixed;
-    left: -70%;
-    top: 250%;
-    width: auto;
-    height: 15rem;
-    z-index: 7;
+.plane {
+  position: fixed;
+  left: -70%;
+  top: 250%;
+  width: auto;
+  height: 15rem;
+  z-index: 7;
 }

@@ -87,6 +87,9 @@
   display: inline-block;
   margin-bottom: 15px;
 }
+.text-box p {
+  word-spacing: 3px;
+}
 
 .left-roadmap-arrow {
   height: 0;

@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./nav.css"; 
+import "./nav.css";
 function Nav() {
-
   const [isActive, setIsActive] = useState(false);
 
   const toggleMenu = () => {
@@ -11,15 +10,16 @@ function Nav() {
   };
 
   return (
-
-
     <nav className="navbar">
       <div className="logo">
-        <img src="img/navlogo.png" alt="" />
+        <img src="./img/Bluebg_CDC.png" alt="logo" />
       </div>
-      <input type="checkbox" id="click" 
-       checked={isActive}
-       onChange={toggleMenu}/>
+      <input
+        type="checkbox"
+        id="click"
+        checked={isActive}
+        onChange={toggleMenu}
+      />
       <label htmlFor="click" className="menu-btn">
         <i className="fas fa-bars"></i>
       </label>
@@ -34,22 +34,32 @@ function Nav() {
           <NavLink to={"/about"}>About</NavLink>
         </li> */}
         <li>
-          <NavLink to={"/team"}  onClick={toggleMenu}>Team</NavLink>
-        </li> 
+          <NavLink to={"/team"} onClick={toggleMenu}>
+            Team
+          </NavLink>
+        </li>
         {/* <li>
           <NavLink to={"/event"}>Event</NavLink>
         </li> */}
         <li>
-          <NavLink to={"/contact"}  onClick={toggleMenu} >Contact</NavLink>
+          <NavLink to={"/contact"} onClick={toggleMenu}>
+            Contact
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/contest"}  onClick={toggleMenu}>Contests</NavLink>
+          <NavLink to={"/contest"} onClick={toggleMenu}>
+            Contests
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/query"} onClick={toggleMenu} >Query</NavLink>
+          <NavLink to={"/query"} onClick={toggleMenu}>
+            Query
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/verify"}  onClick={toggleMenu}>Verify</NavLink>
+          <NavLink to={"/verify"} onClick={toggleMenu}>
+            Verify
+          </NavLink>
         </li>
       </ul>
     </nav>

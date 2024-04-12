@@ -1,11 +1,18 @@
 .main {
   display: flex;
   max-width: 90%;
-  margin: auto;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  justify-content: space-around;
   flex-wrap: wrap;
-  /* overflow-x: hidden; */
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+.vis{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+  font-size: 18px;
+  font-family: 'Lucida Console';
 }
 /* .main_left {
   padding-top: 5rem;
@@ -22,6 +29,7 @@
 
 .main_left {
   /* padding-top: 5rem; */
+  padding-left: 4rem;
   margin-top: 2px;
 
   max-width: 50%;
@@ -42,7 +50,8 @@
 .right_text,
 .left_text {
   max-width: 45%;
-  text-align: justify;
+  text-align: left;
+  word-spacing: 3px;
 }
 .right_text,
 .left_text {
@@ -54,7 +63,9 @@
 }
 
 .main_right {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  display: flex;
+
   max-width: 50%;
 }
 
@@ -68,8 +79,12 @@
 .code_img:hover {
   transform: rotate(-4deg);
 }
+.coders_text{
+  font-size: 95px;
+}
 
 .club_text {
+  font-size: 95px;
   background: linear-gradient(
     151deg,
     rgba(255, 255, 255, 1) 0%,
@@ -164,7 +179,7 @@
     height: 50vh;
     width: auto;
   }
- 
+
   .main_right img {
     width: 300px;
     margin: 0 auto;
@@ -177,6 +192,7 @@
     padding-top: 2rem;
     margin: 0 auto;
     max-width: 90%;
+    padding-left: 0;
   }
   .coders_text {
     display: flex;
@@ -184,6 +200,7 @@
     margin: 0;
     font-size: 3rem;
     text-align: center;
+    /* padding-left: 0; */
   }
   .club_text {
     display: flex;
@@ -193,7 +210,11 @@
     text-align: center;
   }
   .coders_title div {
+    /* align-items: center; */
     align-items: center;
+  }
+  .coders_title {
+    padding-left: 0;
   }
 
   .text_bottom {

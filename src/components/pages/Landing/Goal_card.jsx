@@ -1,4 +1,5 @@
 import React from "react";
+import "./Goal_card.css"
 import { MdOutlineRocketLaunch } from "react-icons/md";
 
 const Goal_card = () => {

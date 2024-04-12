@@ -5,23 +5,23 @@ const Cards = () => {
   const workflowsData = [
     {
       image: "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2Ffour.webp?alt=media&token=4567daf0-dc9d-4095-8f27-e8f72c3f83dc",
-      title: "That Work",
-      description: "I'm a paragraph. Click here to add your own text ",
+      title: "Driving Growth and Excellence",
+      description: "Our primary goal is to prioritise the growth and excellence of our college’s coding culture.",
     },
     {
       image: "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2Ftwo.webp?alt=media&token=dd10bbc5-1828-4bcc-b3f1-644885ad89a7",
-      title: "All-In-One Solution",
-      description: "I'm a paragraph. Click here to add your ",
+      title: "Cultivating a Dynamic Learning Environment",
+      description: "Promoting continuous learning and technological skill enhancement among college students.",
     },
     {
       image: "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2Fthree.webp?alt=media&token=a57b3636-83db-4ed9-a458-824ba80973c8",
-      title: "Comprehensive Customer Support",
-      description: "I'm a paragraph. Click here to add your own ",
+      title: "Tech Awareness Sessions",
+      description: "New student-focused tech awareness sessions highlighting coding and tech domains' importance.",
     },
     {
       image: "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2Fone.webp?alt=media&token=1ac51843-f3d6-45f5-ba29-0464feca6a95",
-      title: "Smart Automation Tools",
-      description: "I'm a paragraph. Click here to add your own ",
+      title: "Advancing Coding Community",
+      description: "Empowering coding community through faculty and alumni collaboration for new skills introduction.",
     },
   ];
 
