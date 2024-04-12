@@ -9,9 +9,15 @@ const CertificateForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://cdc-website-backend.vercel.app/verify/add', {
-        certificateId: certificateId
-      });
+      const response = await axios.post(
+        'https://cdc-website-backend.vercel.app/verify/add',
+        { certificateId },
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      );
 
       if (response.data) {
         setOk(true);
