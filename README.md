@@ -2,7 +2,7 @@
 
    # CDC (Coders And Developers Clubs) Website
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; text-align:center;">
     <img src="https://github.com/AdityaGaur7/CDC_BACKEND/assets/121216575/b040e5cd-accd-495b-a5f0-7766e944ebdf" alt="CDC Logo">
 </div>
 
