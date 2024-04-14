@@ -2,8 +2,9 @@
 
    # CDC (Coders And Developers Clubs) Website
 
-
- ![CDC Logo](https://github.com/AdityaGaur7/CDC_BACKEND/assets/121216575/b040e5cd-accd-495b-a5f0-7766e944ebdf)
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/AdityaGaur7/CDC_BACKEND/assets/121216575/b040e5cd-accd-495b-a5f0-7766e944ebdf" alt="CDC Logo">
+</div>
 
 CDC (Coders And Developers Clubs) is a community-driven organization dedicated to fostering a passion for coding and development among enthusiasts. This repository contains the source code for the CDC website, where you can learn about our vision, goals, upcoming contests, query resolution through StackOverflow, certificate verification for winners, team information, and contact details.
 
@@ -60,5 +61,10 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
             <li>Run the development server</li>
             <pre><code>npm start</code></pre>
         </ol>
-  <a href="#" style="display: inline-block; background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 5px; margin-top: 20px;" class="button">View Repository</a>
+  <a href="https://github.com/CodeChef-MMMUT-Chapter/CDC-WEBSITE" style="display: inline-block; background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 5px; margin-top: 20px;" class="button">View Repository</a>
+<div align="center">
+
+### Show some ❤️ by starring⭐ this awesome Repository!
+
+</div>
 
