@@ -26,18 +26,21 @@ body {
   height: 43vh;
   width: 100%;
 }
-.niche{
+
+.niche {
   /* border-top: 1px solid white; */
   padding-top: 1rem;
   width: 100%;
-  text-align:center ;
+  text-align: center;
   bottom: 0;
 
 }
+
 .navbar__logo {
   height: 3rem;
   width: auto;
 }
+
 .navbar__title {
   height: 3rem;
   width: auto;
@@ -124,10 +127,12 @@ body {
     width: 50%;
     margin-bottom: 30px;
   }
+
   .navbar__brand {
     margin: auto;
   }
-  .footer{
+
+  .footer {
     height: 57vh;
   }
 }
@@ -136,7 +141,18 @@ body {
   .footer-col {
     width: 50%;
   }
-  .footer{
+
+  .footer {
     height: 65vh;
   }
+}
+
+.svg-display {
+  display: flex;
+  gap: 8px;
+}
+
+.svg-icons {
+  height: 15px;
+
 }
