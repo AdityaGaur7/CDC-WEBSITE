@@ -14,12 +14,12 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
 
 <h2 style="font-size: 1.5em; margin-bottom: 15px;">Tech Stack</h2>
 <ul style="list-style-type: none; padding: 0;">
-    <li><strong>Frontend:</strong> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js" style="height: 20px; margin-bottom: -5px;"> React.js</li>
+    <li><strong>Frontend:</strong> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js" style="height: 20px; margin-bottom: -5px;"></li>
     <li><strong>Backend:</strong> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" style="height: 20px; margin-bottom: -5px;"> Node.js, 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express" style="height: 20px; margin-bottom: -5px;"> Express
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" style="height: 20px; margin-bottom: -5px;"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express" style="height: 20px; margin-bottom: -5px;">
     </li>
-    <li><strong>Database:</strong> <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" alt="MongoDB Atlas" style="height: 20px; margin-bottom: -5px;"> MongoDB Atlas</li>
+    <li><strong>Database:</strong> <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" alt="MongoDB Atlas" style="height: 20px; margin-bottom: -5px;"></li>
 </ul>
 
   <h2 style="font-size: 1.5em; margin-bottom: 15px;">Features</h2>
@@ -33,15 +33,14 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
         </ul>
 
  <h2 style="font-size: 1.5em; margin-bottom: 15px;">Contributors</h2>
-        <ul style="list-style-type: none; padding: 0;">
-            <li>AdityaGaur7</li>
-            <li>GrandMaster2004</li>
-            <li>varshaa-7</li>
-            <li>TejasMishr</li>
-            <li>viveksingh91</li>
-        </ul>
+<ul style="list-style-type: none; padding: 0;">
+    <li><img src="https://github.com/AdityaGaur7.png" alt="AdityaGaur7" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> AdityaGaur7</li>
+    <li><img src="https://github.com/GrandMaster2004.png" alt="GrandMaster2004" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> GrandMaster2004</li>
+    <li><img src="https://github.com/varshaa-7.png" alt="varshaa-7" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> varshaa-7</li>
+    <li><img src="https://github.com/TejasMishr.png" alt="TejasMishr" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> TejasMishr</li>
+    <li><img src="https://github.com/viveksingh91.png" alt="viveksingh91" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> viveksingh91</li>
+</ul>
         
-![Screenshot 2024-04-14 231359](https://github.com/CodeChef-MMMUT-Chapter/CDC-WEBSITE/assets/121216575/1261474f-2bed-4e05-afbc-c9f766add7b3)
 
  <h2 style="font-size: 1.5em; margin-bottom: 15px;">Getting Started</h2>
         <p style="margin-bottom: 20px;">To get a local copy up and running follow these simple steps.</p>
