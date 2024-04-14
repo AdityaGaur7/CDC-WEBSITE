@@ -13,7 +13,7 @@
       "methods": ["OPTIONS", "POST"],
       "headers": {
        
-        "Access-Control-Allow-Origin": "https://cdc.mmmut.xyz",
+        "Access-Control-Allow-Origin": "https://cdc-website-vrqu.vercel.app",
         "Access-Control-Allow-Methods": "POST",
         "Access-Control-Allow-Headers": "Content-Type"
       },
@@ -23,7 +23,7 @@
       "src": "/verify/:id",
       "methods": ["OPTIONS", "GET"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://cdc.mmmut.xyz",
+        "Access-Control-Allow-Origin": "https://cdc-website-vrqu.vercel.app",
         "Access-Control-Allow-Methods": "GET",
         "Access-Control-Allow-Headers": "Content-Type"
       },

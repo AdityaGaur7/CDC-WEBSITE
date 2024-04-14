@@ -10,10 +10,9 @@ const CertificateVerifier = () => {
   const handleVerify = async () => {
     //  console.log(typeof(certificateId));
     try {
-      const response = await axios.get(
-        `https://cdcbackend.mmmut.xyz/verify/${certificateId}`,
-        { certificateId }
-      );
+
+      const response = await axios.get(`https://cdc-website-backend.vercel.app/verify/${certificateId}`, { certificateId });
+
       setVerify(true);
       console.log(response.data);
       if (verify) {
