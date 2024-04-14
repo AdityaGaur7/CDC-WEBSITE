@@ -37,6 +37,8 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
             <li>TejasMishr</li>
             <li>viveksingh91</li>
         </ul>
+        
+![Screenshot 2024-04-14 231359](https://github.com/CodeChef-MMMUT-Chapter/CDC-WEBSITE/assets/121216575/1261474f-2bed-4e05-afbc-c9f766add7b3)
 
  <h2 style="font-size: 1.5em; margin-bottom: 15px;">Getting Started</h2>
         <p style="margin-bottom: 20px;">To get a local copy up and running follow these simple steps.</p>
