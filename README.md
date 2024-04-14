@@ -12,12 +12,15 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
 
 <p style="margin-bottom: 20px;">CDC (Coders And Developers Clubs) is a community-driven organization dedicated to fostering a passion for coding and development among enthusiasts. This repository contains the source code for the CDC website, where you can learn about our vision, goals, upcoming contests, query resolution through StackOverflow, certificate verification for winners, team information, and contact details.</p>
 
- <h2 style="font-size: 1.5em; margin-bottom: 15px;">Tech Stack</h2>
-        <ul style="list-style-type: none; padding: 0;">
-            <li><strong>Frontend:</strong> React.js</li>
-            <li><strong>Backend:</strong> Node.js, Express</li>
-            <li><strong>Database:</strong> MongoDB Atlas</li>
-        </ul>
+<h2 style="font-size: 1.5em; margin-bottom: 15px;">Tech Stack</h2>
+<ul style="list-style-type: none; padding: 0;">
+    <li><strong>Frontend:</strong> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js" style="height: 20px; margin-bottom: -5px;"> React.js</li>
+    <li><strong>Backend:</strong> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" style="height: 20px; margin-bottom: -5px;"> Node.js, 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express" style="height: 20px; margin-bottom: -5px;"> Express
+    </li>
+    <li><strong>Database:</strong> <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" alt="MongoDB Atlas" style="height: 20px; margin-bottom: -5px;"> MongoDB Atlas</li>
+</ul>
 
   <h2 style="font-size: 1.5em; margin-bottom: 15px;">Features</h2>
         <ul style="list-style-type: none; padding: 0;">
