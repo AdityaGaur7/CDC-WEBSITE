@@ -8,9 +8,17 @@
       "linkedin": "https://www.linkedin.com/in/anant-sharan-pandey-9bb037224/"
     },
     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FTushar.jpg?alt=media&token=30f3caa8-ac6f-4741-8436-dc5729ae8639",
+      "name": "Tushar Kesarwani",
+      "position": "Vice President",
+      "gmail": "tusharkesarwani44@gmail.com",
+      "insta": "https://instagram.com/tushar_.104/",
+      "linkedin": "https://linkedin.com/in/tushar104/"
+    },
+    {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAnubhav.jpg?alt=media&token=f0a7f48d-7930-4bab-9c7b-5dbb2f9e08f7",
       "name": "Anubhav Gupta",
-      "position": "Vice President",
+      "position": "CP Mentor",
       "gmail": "anubhavgu2002@gmail.com",
       "insta": "https://www.instagram.com/anubhavgupta8083/",
       "linkedin": "https://www.linkedin.com/in/anubhav-gupta-011164210/"
@@ -23,14 +31,7 @@
       "insta": "https://www.instagram.com/mane_sharma/",
       "linkedin": "https://www.linkedin.com/in/manvendra-sharma-0b517a228/"
     },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FTushar.jpg?alt=media&token=30f3caa8-ac6f-4741-8436-dc5729ae8639",
-      "name": "Tushar Kesarwani",
-      "position": "CP Lead",
-      "gmail": "tusharkesarwani44@gmail.com",
-      "insta": "https://instagram.com/tushar_.104/",
-      "linkedin": "https://linkedin.com/in/tushar104/"
-    },
+    
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAYUSHI%20AGARWAL.jpeg?alt=media&token=031a30d5-3608-469d-8bee-b7aa75e23b4f",
       "name": "Ayushi Agarwal",
@@ -42,7 +43,7 @@
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fvivek.jpg?alt=media&token=c6f0bfbe-4c00-46fd-a656-7256dabea333",
       "name": "Vivek Singh",
-      "position": "Vice CP Lead",
+      "position": "CP Lead (Boys)",
       "gmail": "rahulviveks80@gmail.com",
       "insta": "https://www.instagram.com/v.i.v.e.k__singh/",
       "linkedin": "https://www.linkedin.com/in/vivek-singh-9b2384228/"
@@ -58,7 +59,7 @@
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FGatuam.jpeg?alt=media&token=36426d32-3d9f-4ae5-bd1c-27a006df8c53",
       "name": "Gautam Kumar Shah",
-      "position": "CP Mentor",
+      "position": "Vice CP Lead",
       "gmail": "gautam2002gkp@gmail.com",
       "insta": "#",
       "linkedin": "https://www.linkedin.com/in/gautam-kumar-shah-2995a522a/"
