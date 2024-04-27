@@ -15,32 +15,7 @@
       "insta": "https://instagram.com/tushar_.104/",
       "linkedin": "https://linkedin.com/in/tushar104/"
     },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAnubhav.jpg?alt=media&token=f0a7f48d-7930-4bab-9c7b-5dbb2f9e08f7",
-      "name": "Anubhav Gupta",
-      "position": "CP Mentor",
-      "gmail": "anubhavgu2002@gmail.com",
-      "insta": "https://www.instagram.com/anubhavgupta8083/",
-      "linkedin": "https://www.linkedin.com/in/anubhav-gupta-011164210/"
-    },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FManvendra.jpg?alt=media&token=7f97e1e5-f483-4ffb-aa9b-ad08187a492c",
-      "name": "Manvendra Sharma",
-      "position": "Management & Outreach Lead",
-      "gmail": "Manvendra0821@gmail.com",
-      "insta": "https://www.instagram.com/mane_sharma/",
-      "linkedin": "https://www.linkedin.com/in/manvendra-sharma-0b517a228/"
-    },
-    
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAYUSHI%20AGARWAL.jpeg?alt=media&token=031a30d5-3608-469d-8bee-b7aa75e23b4f",
-      "name": "Ayushi Agarwal",
-      "position": "CP Lead (Girls)",
-      "gmail": "ayushiagarwal260103@gmail.com",
-      "insta": "https://www.instagram.com/ayushi._.agarwal_/",
-      "linkedin": "https://www.linkedin.com/in/ayushi-agarwal-11a908229/"
-    },
-    {
+     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fvivek.jpg?alt=media&token=c6f0bfbe-4c00-46fd-a656-7256dabea333",
       "name": "Vivek Singh",
       "position": "CP Lead (Boys)",
@@ -48,13 +23,13 @@
       "insta": "https://www.instagram.com/v.i.v.e.k__singh/",
       "linkedin": "https://www.linkedin.com/in/vivek-singh-9b2384228/"
     },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fatul.png?alt=media&token=205836cb-418d-4b84-ab16-0c907a0ff6f0",
-      "name": "Atul Kumar",
-      "position": "Designing Lead",
-      "gmail": "atul.ak1510@gmail.com",
-      "insta": "http://instagram.com/atul_kumar15/",
-      "linkedin": "https://www.linkedin.com/in/atul1510/"
+     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAYUSHI%20AGARWAL.jpeg?alt=media&token=031a30d5-3608-469d-8bee-b7aa75e23b4f",
+      "name": "Ayushi Agarwal",
+      "position": "CP Lead (Girls)",
+      "gmail": "ayushiagarwal260103@gmail.com",
+      "insta": "https://www.instagram.com/ayushi._.agarwal_/",
+      "linkedin": "https://www.linkedin.com/in/ayushi-agarwal-11a908229/"
     },
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FGatuam.jpeg?alt=media&token=36426d32-3d9f-4ae5-bd1c-27a006df8c53",
@@ -65,6 +40,31 @@
       "linkedin": "https://www.linkedin.com/in/gautam-kumar-shah-2995a522a/"
     },
     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FManvendra.jpg?alt=media&token=7f97e1e5-f483-4ffb-aa9b-ad08187a492c",
+      "name": "Manvendra Sharma",
+      "position": "Management & Outreach Lead",
+      "gmail": "Manvendra0821@gmail.com",
+      "insta": "https://www.instagram.com/mane_sharma/",
+      "linkedin": "https://www.linkedin.com/in/manvendra-sharma-0b517a228/"
+    },
+   
+    {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fatul.png?alt=media&token=205836cb-418d-4b84-ab16-0c907a0ff6f0",
+      "name": "Atul Kumar",
+      "position": "Designing Lead",
+      "gmail": "atul.ak1510@gmail.com",
+      "insta": "http://instagram.com/atul_kumar15/",
+      "linkedin": "https://www.linkedin.com/in/atul1510/"
+    },
+     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fkishan.png?alt=media&token=b70203c4-98be-4ee2-8031-5bbd706d25a0",
+      "name": "Kishan Maurya",
+      "position": "Problem Setting Lead",
+      "gmail": "kishanlife12345@gmail.com",
+      "insta": "https://www.instagram.com/kishankrishna_/",
+      "linkedin": "https://www.linkedin.com/in/kishan-maurya1/"
+    },
+    {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FTanya.png?alt=media&token=cd29fdc9-5df7-42f7-817c-8fa6af6ba104",
       "name": "Tanya Singh",
       "position": "CP Mentor",
@@ -72,13 +72,13 @@
       "insta": "https://www.instagram.com/tanyasingh9430/",
       "linkedin": "https://www.linkedin.com/in/tanya-singh-59b398224/"
     },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fkishan.png?alt=media&token=b70203c4-98be-4ee2-8031-5bbd706d25a0",
-      "name": "Kishan Maurya",
-      "position": "Problem Setting Lead",
-      "gmail": "kishanlife12345@gmail.com",
-      "insta": "https://www.instagram.com/kishankrishna_/",
-      "linkedin": "https://www.linkedin.com/in/kishan-maurya1/"
+     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAnubhav.jpg?alt=media&token=f0a7f48d-7930-4bab-9c7b-5dbb2f9e08f7",
+      "name": "Anubhav Gupta",
+      "position": "CP Mentor",
+      "gmail": "anubhavgu2002@gmail.com",
+      "insta": "https://www.instagram.com/anubhavgupta8083/",
+      "linkedin": "https://www.linkedin.com/in/anubhav-gupta-011164210/"
     },
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAnikalp%20Jaiswal.jpg?alt=media&token=04805c71-dbb8-4b29-bdce-e4d2a926e350",
@@ -96,6 +96,8 @@
       "insta": "#",
       "linkedin": "https://www.linkedin.com/in/aditya-kr-014a14248/"
     },
+   
+    
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FAbhishek.png?alt=media&token=3043d382-e698-4d10-a1b8-d64d0facbbd2",
       "name": "Abhishek Yadav",
@@ -112,14 +114,7 @@
       "insta": "https://www.instagram.com/devansht13/",
       "linkedin": "https://www.linkedin.com/in/devansh-tripathi-4150aa225/"
     },
-    {
-      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fankit.jpeg?alt=media&token=06015deb-cb4b-4e84-bbe8-aac09752c22c",
-      "name": "Ankit Verma",
-      "position": "Editorial Lead",
-      "gmail": "ankit4444verma@gmail.com",
-      "insta": "https://www.instagram.com/ankit_11_verma/",
-      "linkedin": "https://www.linkedin.com/in/ankit11verma/"
-    },
+   
     {
       "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2FPrajjwal%20Vishwakarma.png?alt=media&token=65cb3fe3-5a3b-4e2e-95d5-4ce57f92cad8",
       "name": "Prajjwal Vishwakarma",
@@ -127,6 +122,14 @@
       "gmail": "prajjwalvish2@gmail.com",
       "insta": "https://instagram.com/prajjwal_vish?igshid=YmMyMTA2M2Y=",
       "linkedin": "https://www.linkedin.com/in/prajjwal-vish-1564b1230/"
+    },
+     {
+      "imgLink": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2021-25%2Fankit.jpeg?alt=media&token=06015deb-cb4b-4e84-bbe8-aac09752c22c",
+      "name": "Ankit Verma",
+      "position": "Editorial Lead",
+      "gmail": "ankit4444verma@gmail.com",
+      "insta": "https://www.instagram.com/ankit_11_verma/",
+      "linkedin": "https://www.linkedin.com/in/ankit11verma/"
     }
   ]
   
