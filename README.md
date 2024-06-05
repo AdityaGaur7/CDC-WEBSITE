@@ -38,8 +38,7 @@ CDC (Coders And Developers Clubs) is a community-driven organization dedicated t
     <li><img src="https://github.com/AdityaGaur7.png" alt="AdityaGaur7" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> AdityaGaur7</li>
     <li><img src="https://github.com/GrandMaster2004.png" alt="GrandMaster2004" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> GrandMaster2004</li>
     <li><img src="https://github.com/varshaa-7.png" alt="varshaa-7" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> varshaa-7</li>
-    <li><img src="https://github.com/TejasMishr.png" alt="TejasMishr" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> TejasMishr</li>
-    <li><img src="https://github.com/viveksingh91.png" alt="viveksingh91" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> viveksingh91</li>
+   <li><img src="https://github.com/TejasMishr.png" alt="TejasMishr" style="height: 30px; width: 30px; border-radius: 50%; margin-right: 10px;"> TejasMishr</li>
 </ul>
         
 
